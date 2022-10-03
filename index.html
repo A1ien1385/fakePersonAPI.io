@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake API Person</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <form class="generator">
+      <label class="generator__input-name">
+        Choose gender
+        <select class="generator__select" name="gender">
+          <option value="both" selected>All</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+      </label>
+
+      <label class="generator__input-name">
+        Amount:
+        <input
+          class="generator__input"
+          name="users-number"
+          type="number"
+          value="5"
+        />
+      </label>
+
+      <input type="submit" class="button" value="Download" />
+      <button class="button refresh">Refresh</button>
+    </form>
+    <div class="user-list"></div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  background-color: #d1bea8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px auto;
+  max-width: 1200px;
+  font-size: 1.4rem;
+}
+
+select,
+input,
+.button {
+  border-radius: 10px;
+  background-color: #f9e5bc;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 0;
+  margin: 10px;
+  font-size: 1.4rem;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.user-list {
+  background-color: rgba(238, 238, 238, 0.4);
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
+
+.user {
+  flex-basis: 30%;
+  display: flex;
+}
+
+.user__image {
+  order: -1;
+  padding: 20px;
+}
